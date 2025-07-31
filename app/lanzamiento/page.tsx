@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <>
             <div className="flex justify-start my-25">
-                <Badge variant={"default"} className="bg-[#ed1b2f] rounded-s-none rounded-e-2xl px-15 ">Evento</Badge>
+                <Badge variant={"default"} className="bg-[#ed1b2f] font-bold rounded-s-none rounded-e-2xl px-15 ">Evento</Badge>
             </div>
             <div className="text-center my-25">
                 <p>ARMANDO DEL RIO</p>
@@ -26,7 +26,7 @@ const HomePage = () => {
             <Image src={"/img17.jpg"} alt={"segunda_imagen_de_camión"} width={800} height={500} className="w-full h-auto"/>
             <div className="bg-[#ec1a2d] h-1 my-1"/>
             <div className="flex justify-start my-10">
-                <Badge variant={"outline"} className="text-destructive bg-white rounded-s-none rounded-e-2xl px-15">Fecha</Badge>
+                <Badge variant={"outline"} className="text-destructive bg-white font-bold rounded-s-none rounded-e-2xl px-15">Fecha</Badge>
             </div>
 
             <div className="text-center mb-10">
@@ -52,7 +52,7 @@ const HomePage = () => {
             <div className="bg-[#ec1a2d] h-1 my-1"/>
             
             <div className="flex justify-start my-10">
-                <Badge variant={"default"} className="bg-[#ed1b2f] rounded-s-none rounded-e-2xl px-15">Asistencia</Badge>
+                <Badge variant={"default"} className="bg-[#ed1b2f] font-bold rounded-s-none rounded-e-2xl px-15">Asistencia</Badge>
             </div>
 
             <div className="text-center mb-15">
