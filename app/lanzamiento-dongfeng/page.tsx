@@ -1,10 +1,9 @@
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import SecondTextScroll from "@/components/second-text";
+import FirstTextScroll from "@/components/first-text";
+import ArmandoTextScroll from "@/components/armando-text";
 
 const HomePage = () => {
     return (
@@ -21,21 +20,13 @@ const HomePage = () => {
                 />
 
                 <div style={{ fontFamily: "helvetica" }} className="absolute z-10 top-[35%]">
-                    <p>Inauguración del primer concesionario</p>
-                    <p>Oficial Dongfeng en Argentina</p>
+                    <FirstTextScroll />
                 </div>
 
-                <Image
-                    src="/armando.svg"
-                    alt="texto"
-                    width={400}
-                    height={200}
-                    className="absolute z-10 top-[55%] left-1/2 -translate-x-1/2"
-                />
+                <ArmandoTextScroll />
 
                 <div style={{ fontFamily: "helvetica" }} className="absolute z-10 top-[75%]">
-                    <p>El futuro del transporte comercial</p>
-                    <p>en Córdoba está por llegar</p>
+                    <SecondTextScroll />
                 </div>
             </div>
 
@@ -56,7 +47,7 @@ const HomePage = () => {
                 </div>
                 <br />
                 <br />
-                <p>19:00hs</p>
+                <p>19:00hs.</p>
                 <p>Av. Juan B. Justo 5181,</p>
                 <p>X5001GZA Córdoba.</p>
             </div>
@@ -68,12 +59,13 @@ const HomePage = () => {
             </div>
 
             <div style={{ fontFamily: "helvetica" }}  className="text-center mb-10">
-                <p>Vestimenta sugerida:</p>
-                <p>Elegante sport.</p>
+                <p>Dress code: elegante sport.</p>
             </div>
 
             <div className="bg-white h-1 my-1"/>
+
             <Image src={"/img16.jpg"} alt={"imagen_de_camión"} width={800} height={500} className="w-full h-auto"/>
+            
             <div className="bg-[#ec1a2d] h-1 my-1"/>
             
             <div className="relative w-full h-96 sm:h-167 md:h-167 flex flex-col items-center text-center">
@@ -82,9 +74,10 @@ const HomePage = () => {
                 <div className="absolute z-10 top-[15%] left-0">
                     <Badge variant={"default"} className="bg-[#ed1b2f] font-bold rounded-s-none rounded-e-2xl px-15">Asistencia</Badge>
                 </div>
+
                 <div style={{ fontFamily: "helvetica" }} className="absolute z-10 top-[40%]">
                     <p>Te pedimos que confirmes tu asistencia.</p>
-                    <p>Recibirás por e-mail un código QR para</p>
+                    <p>Recibirás por E-mail y Whatsapp un código QR para</p>
                     <p>tu acreditación el día del evento.</p>
                 </div>
 
