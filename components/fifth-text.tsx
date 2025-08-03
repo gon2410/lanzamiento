@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-export default function FirstTextScroll() {
+export default function FifthTextScroll() {
     const ref = useRef(null);
 
     useEffect(() => {
@@ -23,8 +23,7 @@ export default function FirstTextScroll() {
 
     return (
         <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-700">
-            <p>Inauguración del primer concesionario</p>
-            <p>Oficial Dongfeng en Argentina.</p>
-        </div> 
+            <p>Dress code: elegante sport.</p>
+        </div>
     );
 }

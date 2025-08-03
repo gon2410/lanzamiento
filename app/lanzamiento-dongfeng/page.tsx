@@ -4,12 +4,21 @@ import { Button } from "@/components/ui/button";
 import SecondTextScroll from "@/components/second-text";
 import FirstTextScroll from "@/components/first-text";
 import ArmandoTextScroll from "@/components/armando-text";
+import ThirdTextScroll from "@/components/third-text";
+import FourthTextScroll from "@/components/fourth-text";
+import FifthTextScroll from "@/components/fifth-text";
+import SixthTextScroll from "@/components/sixth-text";
 
 const HomePage = () => {
     return (
         <>
             <div className="relative w-full h-96 sm:h-167 md:h-167 flex flex-col items-center text-center">
-                <Image src="/fondo.svg" alt="fondo" fill priority className="object-cover z-0"/>
+                <Image
+                    src="/fondo.svg"
+                    alt="fondo"
+                    fill
+                    priority
+                    className="object-cover z-0"/>
 
                 <Image
                     src="/texto_1.svg"
@@ -19,13 +28,13 @@ const HomePage = () => {
                     className="absolute z-10 top-[15%] left-1/2 -translate-x-1/2"
                 />
 
-                <div style={{ fontFamily: "helvetica" }} className="absolute z-10 top-[35%]">
+                <div className="absolute z-10 top-[35%]">
                     <FirstTextScroll />
                 </div>
 
                 <ArmandoTextScroll />
 
-                <div style={{ fontFamily: "helvetica" }} className="absolute z-10 top-[75%]">
+                <div className="absolute z-10 top-[75%]">
                     <SecondTextScroll />
                 </div>
             </div>
@@ -40,16 +49,11 @@ const HomePage = () => {
                 <Badge variant={"outline"} className="text-destructive bg-white font-bold rounded-s-none rounded-e-2xl px-15">Fecha</Badge>
             </div>
 
-            <div style={{ fontFamily: "helvetica"}}  className="text-center">
-                <div className="text-4xl space-y-0">
-                    <p>jueves</p>
-                    <p>14.08.25</p>
-                </div>
+            <div className="text-center">
+                <ThirdTextScroll />
                 <br />
                 <br />
-                <p>19:00hs.</p>
-                <p>Av. Juan B. Justo 5181,</p>
-                <p>X5001GZA Córdoba.</p>
+                <FourthTextScroll />
             </div>
 
             <div className="text-center">
@@ -58,8 +62,8 @@ const HomePage = () => {
                 </a>
             </div>
 
-            <div style={{ fontFamily: "helvetica" }}  className="text-center mb-10">
-                <p>Dress code: elegante sport.</p>
+            <div className="text-center mb-10">
+                <FifthTextScroll />
             </div>
 
             <div className="bg-white h-1 my-1"/>
@@ -75,10 +79,8 @@ const HomePage = () => {
                     <Badge variant={"default"} className="bg-[#ed1b2f] font-bold rounded-s-none rounded-e-2xl px-15">Asistencia</Badge>
                 </div>
 
-                <div style={{ fontFamily: "helvetica" }} className="absolute z-10 top-[40%]">
-                    <p>Te pedimos que confirmes tu asistencia.</p>
-                    <p>Recibirás por E-mail y Whatsapp un código QR para</p>
-                    <p>tu acreditación el día del evento.</p>
+                <div className="absolute z-10 top-[40%]">
+                    <SixthTextScroll />
                 </div>
 
                 <div className="absolute z-10 top-[75%]">
@@ -91,4 +93,4 @@ const HomePage = () => {
     )
 }
 
-export default HomePage
+export default HomePage;

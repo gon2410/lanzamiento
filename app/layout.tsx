@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Lanzamiento Dongfeng",
+  title: "Lanzamiento",
   description: "Inauguración del primer concesionari oficial Dongfeng en Argentina.",
 };
 
