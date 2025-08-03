@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Lanzamiento",
-  description: "Inauguración del primer concesionari oficial Dongfeng en Argentina.",
+  description: "Inauguración del primer concesionario oficial Dongfeng en Argentina.",
 };
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
