@@ -29,7 +29,7 @@ export default function ArmandoTextScroll() {
             width={400}
             height={200}
             ref={ref}
-            className="absolute z-10 top-[55%] left-1/2 -translate-x-1/2 opacity-0 translate-y-4 transition-all duration-1000"
+            className="absolute z-10 top-[55%] left-1/2 -translate-x-1/2 opacity-0 translate-y-4 transition-all duration-2000"
         />
     );
 }

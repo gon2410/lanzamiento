@@ -22,7 +22,7 @@ export default function SixthTextScroll() {
     }, []);
 
     return (
-        <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-1000">
+        <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-2000">
             <p>Te pedimos que confirmes tu asistencia.</p>
             <p>Recibirás por E-mail y Whatsapp un</p>
             <p>código QR para tu acreditación</p>

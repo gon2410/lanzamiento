@@ -22,7 +22,7 @@ export default function ThirdTextScroll() {
     }, []);
 
     return (
-        <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-1000">
+        <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-2000">
             <div className="text-4xl space-y-0">
                 <p>jueves</p>
                 <p>14.08.25</p>
