@@ -22,7 +22,7 @@ export default function SecondTextScroll() {
     }, []);
 
     return (
-        <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-700">
+        <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-1000">
             <p>El futuro del transporte comercial</p>
             <p>en Córdoba está por llegar.</p>
         </div>

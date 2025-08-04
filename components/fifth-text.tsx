@@ -22,7 +22,7 @@ export default function FifthTextScroll() {
     }, []);
 
     return (
-        <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-700">
+        <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-1000">
             <p>Dress code: elegante sport.</p>
         </div>
     );
