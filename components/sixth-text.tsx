@@ -24,9 +24,8 @@ export default function SixthTextScroll() {
     return (
         <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-2000">
             <p>Te pedimos que confirmes tu asistencia.</p>
-            <p>Recibirás por E-mail y Whatsapp un</p>
-            <p>código QR para tu acreditación</p>
-            <p>el día del evento.</p>
+            <p>Recibirás por e-mail un código QR</p>
+            <p>para tu acreditación el dia del evento.</p>
         </div>
     );
 }
