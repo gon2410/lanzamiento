@@ -23,7 +23,7 @@ export default function FourthTextScroll() {
 
     return (
         <div style={{fontFamily: "helvetica"}} ref={ref} className="opacity-0 translate-y-4 transition-all duration-2000">
-            <p>18:30hs.</p>
+            <p>19:00hs.</p>
             <p>Av. Juan B. Justo 5181,</p>
             <p>X5001GZA Córdoba.</p>
         </div>
