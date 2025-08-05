@@ -84,7 +84,7 @@ const HomePage = () => {
                 </div>
 
                 <div className="absolute z-10 top-[75%]">
-                   <a href="https://view.itlg.io/event/98" target="_blank" rel="noopener noreferrer">
+                   <a href="/" target="_blank" rel="noopener noreferrer">
                         <Button variant={"default"} size={"sm"} className="bg-[#ed1b2f] rounded-2xl text-xs font-extrabold px-8">CONFIRMAR</Button>
                     </a>
                 </div>
